@@ -44,6 +44,12 @@
           </ul>
         </div>
       </nav>
+      <!-- herobanner -->
+      <div class="container-fluid herobanner">
+        <div class="row">
+            <img src="./img/herobanner.jpg" alt="herobanner" class="img-fluid">
+        </div>
+      </div>
 </header>
 
 <body>
@@ -136,17 +142,32 @@
               <div class="modal-body">
                 <div class="container">
                   <div class="row">
-                    <div class="col-lg-4 col-md-12 col-xs-12 item">
+                    <div class="col-lg-8 col-md-12 col-xs-12 item">
                       <img src="../img/oak_1.jpg" alt="Tabouret design">
                       <div class="text">
                         <h5>Tabouret design</h5>
-                        <p>Tabouret design en chêne blanc massif designé par Philippe STARK.</p>
+                        <p>Tabouret design en chêne massif designé par Philippe STARK.</p>
+                        <p><span>Plusieurs choix de couleurs :</span> <br> Chêne clair <br> Chêne brun <br> Chêne brut</p>
                       </div>
                     </div>
-                    <div class="col-lg-4 col-md-12 col-xs-12 tarifs">
-                      <p>180€</p>
+                    <div class="col-lg-4 col-md-12 col-xs-12 item__tarifs">
+                      <p><span>180€</span></p>
                       <p>Tous les prix inclut la TVA.</p>
                       <p>Frais de port : 20€</p>
+                      <div class="item__perso">
+                        <label for="item-select">Personnalisation :</label>
+                        <br>
+                        <select name="item" id="item-select">
+                            <option value="">Choix d'une couleur</option>
+                            <option value="clair">Chêne clair</option>
+                            <option value="brun">Chêne brun</option>
+                            <option value="brut">Chêne brut</option>
+                        </select>
+                      </div>
+                      <div class="item__quantity">
+                        <p>Choisissez une quantité :</p>
+                        <input type="number" name="myInput" value="0" min="0" max="10" step="1">
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -246,7 +267,7 @@
               <div class="modal-body">
                 <div class="container">
                   <div class="row">
-                    <div class="col-lg-4 col-md-12 col-xs-12 item">
+                    <div class="col-lg-8 col-md-12 col-xs-12 item">
                       <img src="../img/oak_3.jpg" alt="Tabouret design">
                       <div class="text">
                         <h5>Table ronde avec rallonges intégrées</h5>
@@ -280,8 +301,8 @@
                 <img src="./img/oak_4_card.jpg" class="card-img-top" alt="Tabouret design">
               </div>
               <div class="card-body">
-                <h5 class="card-title">Chaise style 1800</h5>
-                <p class="card-text">Chaise de style 1800 patinée d'époque.</p>
+                <h5 class="card-title">Chaise style Napoléon</h5>
+                <p class="card-text">Chaise de style Napoléon patinée brun rouge. D'époque 1800 Empire.</p>
               </div>
             </div>
           </div>
@@ -299,7 +320,7 @@
               <div class="modal-body">
                 <div class="container">
                   <div class="row">
-                    <div class="col-lg-4 col-md-12 col-xs-12 item">
+                    <div class="col-lg-8 col-md-12 col-xs-12 item">
                       <img src="../img/oak_4.jpg" alt="Tabouret design">
                       <div class="text">
                         <h5>Chaise style 1800</h5>
@@ -331,7 +352,7 @@
       <!-- Modal 5 START -->
       <div class="col-md-6 mx-auto">
         <button type="button" class="btn" data-toggle="modal" data-target="#exampleModal5">
-          <div class="col mb-4">
+          <div class="col mb-5">
             <div class="card img__anim">
               <div class="img__anim--cadre">
                 <img src="./img/oak_5_card.jpg" class="card-img-top" alt="Tabouret design">
@@ -356,7 +377,7 @@
               <div class="modal-body">
                 <div class="container">
                   <div class="row">
-                    <div class="col-lg-4 col-md-12 col-xs-12 item">
+                    <div class="col-lg-8 col-md-12 col-xs-12 item">
                       <img src="../img/oak_5.jpg" alt="Tabouret design">
                       <div class="text">
                         <h5>Bois brut</h5>

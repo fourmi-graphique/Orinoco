@@ -6,7 +6,7 @@
 
 .nav{
     &__bg--orinoco {
-        background: #e97d20;
+        background: $orange;
         background: $deg;
     }
     &__logo {
@@ -42,36 +42,26 @@
     }
 }
 
-.product__text {
-    margin-top: 50px;
-    padding: 0 20px;
-    h3 {
-        font-weight: 900;
-        text-align: center;
-        font-size: 2rem;
-        color: $violet;
-    }
+h3 {
+    margin: 80px 0;
+    font-weight: 900;
+    text-align: center;
+    font-size: 2rem;
+    color: $violet;
 }
 
-.card__items {
-    margin-top: 50px;
-    h5 {
-        font-weight: 700;
-        color: $violet;
-    }
-}
-
-.footer{
-    // position: fixed;
-    // left: 0;
-    // bottom: 0;
-    // width: 100%;
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
     background: $orange;
     background: $deg;
     a {
         color: #fff;
         &:hover {
             color: $violet;
+            text-decoration: none;
         }
     }
 }
@@ -87,12 +77,66 @@
     }
     .text {
         padding: 20px;
+        span {
+            text-decoration: underline;
+        }
     }
     h5 {
         color: $violet;
         font-weight: 700;
     }
-    .tarifs {
+    &__tarifs {
         padding-left: 20px;
+        p {
+            margin: 0;
+            span {
+                color: $orange;
+                font-weight: 700;
+                font-size: 2rem;
+            }
+        }
+    }
+    &__perso {
+        color: $violet;
+        margin-top: 20px;
+    }
+    &__quantity {
+        color: $violet;
+        margin-top: 20px;
+    }
+}
+.modal-title {
+    color: $orange;
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+// panier.html
+.cart {
+    &__container {
+        margin-top: 80px;
+    }
+    &__select {
+        border: solid 1px;
+        border-image-slice: 1;
+        border-width: 2px;
+        border-image-source: $deg;
+        height: 600px;
+    }
+    &__price {
+        border: solid 1px;
+        border-image-slice: 1;
+        border-width: 2px;
+        border-image-source: $deg;
+        height: 600px;
+    }
+    &__button {
+        margin-top: 30px;
+        button:nth-child(1) {
+        margin-right: 10px;
+        }
+    }
+    &__col {
+        padding: 0;
     }
 }
