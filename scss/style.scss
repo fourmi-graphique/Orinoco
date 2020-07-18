@@ -1,0 +1,98 @@
+@import 'variables';
+@import 'mixins';
+@import 'animations';
+@import '../boostrap/bootstrap.scss';
+
+
+.nav{
+    &__bg--orinoco {
+        background: #e97d20;
+        background: $deg;
+    }
+    &__logo {
+        width: 2rem;
+        &--name {
+            font-family: $brand-name;
+        }
+    }
+}
+
+.carousel{
+    border: solid 1px;
+    border-image-slice: 1;
+    border-width: 8px;
+    border-image-source: $deg;
+    display: flex;
+    &__main {
+    padding: 0;
+    margin-top: 30px;
+    box-shadow: 4px 4px 10px 0px #787878;
+    }
+    h5 {
+        color: $violet;
+        font-size: 1.8rem;
+        font-weight: 900;
+        text-shadow: 1px 1px 2px #414141;
+    }
+    p {
+        font-size: 1.3rem;
+        font-weight: 700;
+        color: #FFF;
+        text-shadow: 1px 1px 2px #414141;
+    }
+}
+
+.product__text {
+    margin-top: 50px;
+    padding: 0 20px;
+    h3 {
+        font-weight: 900;
+        text-align: center;
+        font-size: 2rem;
+        color: $violet;
+    }
+}
+
+.card__items {
+    margin-top: 50px;
+    h5 {
+        font-weight: 700;
+        color: $violet;
+    }
+}
+
+.footer{
+    // position: fixed;
+    // left: 0;
+    // bottom: 0;
+    // width: 100%;
+    background: $orange;
+    background: $deg;
+    a {
+        color: #fff;
+        &:hover {
+            color: $violet;
+        }
+    }
+}
+
+.item {
+    border: solid 1px;
+    border-image-slice: 1;
+    border-width: 2px;
+    border-image-source: $deg;
+    img {
+        width: 100%;
+        padding: 15px 0;
+    }
+    .text {
+        padding: 20px;
+    }
+    h5 {
+        color: $violet;
+        font-weight: 700;
+    }
+    .tarifs {
+        padding-left: 20px;
+    }
+}
