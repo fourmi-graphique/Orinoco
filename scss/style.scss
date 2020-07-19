@@ -131,7 +131,9 @@ footer {
         height: 600px;
     }
     &__button {
+        display: flex;
         margin-top: 30px;
+        justify-content: end;
         button:nth-child(1) {
         margin-right: 10px;
         }
