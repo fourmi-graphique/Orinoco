@@ -3,16 +3,17 @@
 @import 'animations';
 @import '../boostrap/bootstrap.scss';
 
-
-.nav{
-    &__bg--orinoco {
-        background: $orange;
-        background: $deg;
-    }
-    &__logo {
-        width: 2rem;
-        &--name {
-            font-family: $brand-name;
+header {
+    .nav{
+        &__bg--orinoco {
+            background: $orange;
+            background: $deg;
+        }
+        &__logo {
+            width: 2rem;
+            &--name {
+                font-family: $brand-name;
+            }
         }
     }
 }
