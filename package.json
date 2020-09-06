@@ -1,0 +1,24 @@
+{
+  "name": "orinoco",
+  "version": "1.0.0",
+  "description": "Projet 5 https://fourmi-graphique.github.io/orinoco",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fourmi-graphique/Orinoco.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fourmi-graphique/Orinoco/issues"
+  },
+  "homepage": "https://github.com/fourmi-graphique/Orinoco#readme",
+  "devDependencies": {},
+  "dependencies": {
+    "axios": "^0.20.0"
+  }
+}

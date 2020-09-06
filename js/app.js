@@ -36,3 +36,23 @@ app.use('/api/teddies', teddyRoutes);
 app.use('/api/furniture', furnitureRoutes);
 
 module.exports = app;
+
+
+//test appel API
+onload = function(){
+  fetch ("http://localhost:3000/api/furniture").then(
+  ).then(
+    (cardName) => {
+      const { name, imageUrl } = cardName
+      const card = document.createElement('div');
+      const img = document.createElement('img');
+      img.setAttribute('src', imageUrl);
+      const txt = document.createElement('div');
+      console.log(txt);
+      txt.innerText = name;
+      card.appendChild(img);
+      card.appendChild(txt);
+      document.getElementById('card-body').appendChild(card);
+    }
+  )
+}
